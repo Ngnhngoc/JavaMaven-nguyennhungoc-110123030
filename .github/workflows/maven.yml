@@ -25,3 +25,4 @@ jobs:
       run: |
         cd JavaMaven-nguyennhungoc-110123030
         mvn clean test
+        mvn compile exec:java -Dexec.mainClass="com.squirrel.App"
