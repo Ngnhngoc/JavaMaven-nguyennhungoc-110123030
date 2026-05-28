@@ -22,7 +22,6 @@ jobs:
         cache: maven
 
     - name: Run Unit Tests with Maven
-      # Di chuyển vào thư mục dự án Java và chạy test
       run: |
         cd JavaMaven-nguyennhungoc-110123030
         mvn clean test
